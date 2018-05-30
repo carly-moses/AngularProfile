@@ -11,7 +11,6 @@ function ProfileService($location){
     //returns the profiles object
     const getUserProfile = () => {
         return userProfile; 
-
     }; 
 
     //replaces the profile object with  new one
