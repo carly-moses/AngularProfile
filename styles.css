@@ -71,7 +71,12 @@ input {
 
 .input-bio {
     min-height: 100px; 
+    padding: 14px;
+    margin: 5px 30px;
+    border-radius: 20px; 
+    border: 1px solid black;
 }
+
 
 form p {
     margin-left: 30px; 

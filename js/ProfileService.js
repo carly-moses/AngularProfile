@@ -4,8 +4,7 @@ function ProfileService($location){
     let userProfile = {
         name: "Milo Larry",
         contactInfo: "milolarry@dogsarethebest.com",
-        bio: `My name is Milo Larry. Everybody thinks I'm cute. My mom is one of those crazy dog moms. 
-        But I don't mind cause all I want is attention. I'm pretty cool for a small dog. Woof!`
+        bio: `My name is Milo Larry. Everybody thinks I'm cute. My mom is one of those crazy dog moms. But I don't mind cause all I want is attention. I'm pretty cool for a small dog. Woof!`
     };
 
     //returns the profiles object
@@ -23,10 +22,9 @@ function ProfileService($location){
     return {
         getUserProfile,
         setUserProfile
-    }
+    };
 
-} 
-
+};
 
 angular
     .module("app")

@@ -10,7 +10,7 @@ const editProfile = {
         <p> Contact </p>
         <input class="input-contact-info" type="text" placeholder="Contact Info" ng-model="$ctrl.user.contactInfo">
         <p>Bio </p>
-        <input class="input-bio" type="text" placeholder="About Me" ng-model="$ctrl.user.bio">
+        <textarea class="input-bio" type="text" placeholder="About Me" ng-model="$ctrl.user.bio"></textarea>
         <button>Complete</button>
     </form>
     `,
